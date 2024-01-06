@@ -1,0 +1,16 @@
+// fonts.scss
+
+@font-face {
+  font-family: "YourFontRegular";
+  src: url("../fonts/your-font-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "YourFontBold";
+  src: url("../fonts/your-font-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
