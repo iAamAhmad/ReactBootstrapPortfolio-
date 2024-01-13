@@ -1,0 +1,28 @@
+// custom-styles.scss
+@import 'custom-variables';  // Import your custom variables
+@import '~bootstrap/scss/bootstrap';  // Import Bootstrap styles
+@import 'fonts';    
+body {
+  background-color: $secondary-color;  // Using custom secondary color as the background
+}
+
+.btn-primary {
+  background-color: $primary-color;  // Using custom primary color for primary buttons
+  border-color: $primary-color;      // Using the same color for button borders
+  color: #fff;                       // Text color for better contrast
+}
+
+.btn-danger {
+  background-color: $danger-color;   // Using custom danger color for danger buttons
+  border-color: $danger-color;
+  color: #fff;
+}
+
+/* Add more styles using your custom colors */
+body {
+   font-family: 'YourFontRegular', sans-serif;  // Use your custom regular font
+ }
+ 
+ h1, h2, h3 {
+   font-family: 'YourFontBold', sans-serif;  // Use your custom bold font for headings
+ }
