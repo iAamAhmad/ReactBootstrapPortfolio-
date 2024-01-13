@@ -16,6 +16,7 @@ const Practice = () => {
            <div className="col-md bg-primary ">1</div>
            <div className="col-md bg-primary ">1</div>
            <div className="col-md bg-primary ">1</div>
+           <div className="col-md bg-primary ">1</div>
          </div>
       </div>
 
