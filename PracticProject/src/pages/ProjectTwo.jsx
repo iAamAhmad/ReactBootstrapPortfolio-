@@ -9,6 +9,7 @@ const ProjectTwo = () => {
                   <div className="col-7">
                      <h2 className="fw-bold">
                         What others Think?
+                        What others Think?
                      </h2>
 
                   </div>
