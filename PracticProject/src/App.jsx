@@ -5,10 +5,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Practice from "./pages/Practice";
 import ProjectOne from "./pages/Project-one";
 import ProjectTwo from "./pages/ProjectTwo";
+import Grid from "./pages/Grid";
 function App() {
   return (
     <Router>
     <Routes>
+      <Route path="/" exact element={<Grid/>} />
       <Route path="/" exact element={<ProjectTwo/>} />
       <Route path="/" exact element={<ProjectOne/>} />
       <Route path="/home" exact element={<HomePage/>} />
