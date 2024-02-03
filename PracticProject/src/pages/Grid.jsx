@@ -19,6 +19,10 @@ const Grid = () => {
                   <div className="col bg-dark text-danger p-2">2</div>
                   <div className="col bg-dark text-danger p-2">2</div>
                   <div className="col bg-dark text-danger p-2">2</div>
+                  <div className="col bg-dark text-danger p-2">2</div>
+                  <div className="col bg-dark text-danger p-2">2</div>
+                  <div className="col bg-dark text-danger p-2">2</div>
+                  <div className="col bg-dark text-danger p-2">2</div>
                </div>
 
             </div>
